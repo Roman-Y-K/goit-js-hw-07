@@ -1,0 +1,39 @@
+.main-link {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Стили задания 3 */
+
+.img {
+  display: block;
+
+  width: 400px;
+  height: 300px;
+}
+
+.gallary-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallary-item {
+  list-style: none;
+}
+.gallary-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* Стили задания 6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
