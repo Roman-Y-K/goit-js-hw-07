@@ -7,13 +7,14 @@ inputRef.addEventListener('focus', removeClasses);
 
 function checkInput (event) {
     const inputValue = event.target.value;
-    const requiredLength = Number(inputRef.dataset.length);
+    const requiredLength = Number(event.target.dataset.length);
 
     inputValue.length === requiredLength ? addClassValid() : addClassInvalid();
       
 };
 
 function addClassValid() {
+    
     inputRef.classList.add('valid');
     inputRef.classList.remove('invalid');
 };

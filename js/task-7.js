@@ -7,4 +7,4 @@ rangeRef.addEventListener('input', changeTextSize );
 
 function changeTextSize (event) {
     textRef.style.fontSize = `${event.target.value}px`;
-};
+}; 
