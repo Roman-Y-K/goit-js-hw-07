@@ -10,9 +10,7 @@ function checkInput (event) {
     const requiredLength = Number(inputRef.dataset.length);
 
     inputValue.length === requiredLength ? addClassValid() : addClassInvalid();
-     
- 
- 
+      
 };
 
 function addClassValid() {
